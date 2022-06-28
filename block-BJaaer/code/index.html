@@ -41,7 +41,7 @@
           <input
             id="color"
             type="color"
-            name="email"
+            name="color"
             placeholder="Enter your email"
           />
         </div>
@@ -51,8 +51,7 @@
             id="range"
             type="range"
             max="10"
-            step="1"
-            name="email"
+            step="range"
             placeholder="Enter your email"
           />
         </div>
@@ -89,8 +88,15 @@
           <input type="checkbox" id="terms" name="terms" />
           <label for="terms">I Agree to Terms</label>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" class="btn">Submit</button>
       </form>
+      <div class="modal__overlay">
+        <div class="flex container">
+          <button class="close">Close</button>
+          <div class="formBox">
+          </div> 
+        </div>
+      </div>
     </div>
     <script src="./script.js"></script>
   </body>
