@@ -4,7 +4,7 @@ let rootElm =document.querySelector(".movies");
 
 let allMovies = [
   {
-    name: "Ghost Rider",
+    name: " Ghost Rider",
     watched: false,
   },
   {
